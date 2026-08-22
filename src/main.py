@@ -22,6 +22,7 @@ class SimulationWindow(QWidget):
         super().__init__()
         self.setWindowTitle("OpenModelica Simulation Window")
         self.setMinimumWidth(450)
+        self.setMaximumWidth(700)
         self._build_ui()
 
     def _select_executable(self) -> None:
